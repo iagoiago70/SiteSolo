@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Young Serif', serif;
+}
+
+header {
+    min-height: 1080px;
+    background-image: url(../img/fundopreto2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#logo img {
+    width: 200px;
+    height: 200px;
+    line-height: 60px;
+    position: absolute;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.title {
+    color: #ffffff;
+    text-align: center;
+    position:;
+}
