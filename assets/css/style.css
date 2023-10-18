@@ -7,13 +7,8 @@
     font-family: 'Young Serif', serif;
 }
 
-header {
-    min-height: 1080px;
-    background-image: url(../img/fundopreto2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+html {
+    background-color: #212121;
 }
 
 #logo img {
@@ -23,20 +18,62 @@ header {
     position: absolute;
 }
 
-.menu {
+.menu ul {
     display: flex;
     flex: 1;
-    
+    justify-content: flex-end;
 }
 
-.menu ul {
+.menu ul li {
     display: flex;
     justify-content: flex-end;
     list-style: none;
 }
 
-.title {
-    color: #ffffff;
-    text-align: center;
-    position:;
+.menu ul li a {
+color:rgb(185, 9, 185) ;
+padding: 20px;
+text-decoration: none;
 }
+
+.title {
+    color:rgb(185, 9, 185);
+    text-align: center;
+    text-shadow: #555454 2px 2px 2px;
+    font-size: 100px;
+}
+section.home p{
+    text-align: center;
+}
+
+#title{
+    color:rgb(185, 9, 185);
+text-align: center;
+padding-top: 400px;
+text-align: center;
+font-size: 25px;
+}
+
+#sobre{
+    color:rgb(185, 9, 185);
+    text-align: center;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 25px;
+}
+#sobre p{
+padding-bottom: 20px;
+}
+
+p{
+    color: white;
+    text-shadow: 1px 1px 1px #ffffff;
+    font-size: 20px;
+} 
+.container{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+
